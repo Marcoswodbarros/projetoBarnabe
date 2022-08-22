@@ -1,0 +1,35 @@
+.body-img{
+    height: 20rem;
+    margin: 2rem 0 2rem 6rem;
+    width: 30rem;
+}
+
+hr{
+    width: 72.5em;
+}
+
+.body__container-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.img-target, .img-rocket, .img-medal{
+    height: 22rem;
+    margin: 0 1rem;
+    width: 22rem;
+}
+
+.container__img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.body__img-text{
+    font-family: var(--fonte-nav);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: -2rem 0 3rem;
+}

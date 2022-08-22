@@ -1,0 +1,16 @@
+@import url(styles/header.css);
+@import url(styles/body.css);
+@import url(styles/footer.css);
+@import url(styles/rodape.css);
+
+:root{
+    --cor-amarelo: yellow;
+    --cor-branco: #FFFFFF;
+    --cor-cinza: grey;
+    --cor-cinza-claro: rgb(204, 204, 204);
+    --cor-cinza-escuro: darkgray;
+    --cor-verde-claro: rgb(41, 175, 41);
+    --cor-preto: #000000;
+    --cor-nav: rgba(249,249,249,1);
+    --fonte-nav: "Quicksand";
+}

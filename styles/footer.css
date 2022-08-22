@@ -1,0 +1,97 @@
+footer{
+    background-color: var(--cor-cinza-escuro);
+}
+
+.footer-img{
+    height: 5rem;
+    margin: 2rem 0 0 8rem;
+    width: 15rem;
+}
+
+h4{
+    color: var(--cor-branco);
+    font-family: var(--fonte-nav);
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.footer-contato{
+    color: var(--cor-branco);
+    font-family: var(--fonte-nav);
+    margin: .5rem 0 .5rem .5rem;
+}
+
+.container-whatsapp, .container-email, .container-map{
+    align-items: center;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.container-whatsapp i{
+    color: var(--cor-preto);
+}
+
+.footer-nav, .footer-ul{
+    align-items: center;
+    color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-nav);
+}
+
+.footer-nav p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.footer-ul li{
+    font-size: 1rem;
+    padding: .2rem;
+}
+
+form{
+    background-color: var(--cor-branco);
+    border-radius: 10px;
+    color: var(--cor-preto);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-nav);
+    padding: 1.5rem;
+    width: 20rem;
+}
+
+input{
+    border-style: none;
+    border-bottom: .1rem solid var(--cor-preto);
+    margin: 1rem 0;
+    padding: .5rem;
+    width: 18.5rem;
+}
+
+.footer-botao{
+    background: var(--cor-verde-claro);
+    border: .1rem solid black;
+    border-radius: 10px;
+    color: var(--cor-preto);
+    font-family: var(--fonte-nav);
+    font-weight: 700;
+    padding: .3rem;
+    text-align: center;
+    width: 5rem;
+}
+
+.footer-botao:hover{
+    background: var(--cor-amarelo);
+    color: var(--cor-branco);
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.footer-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}

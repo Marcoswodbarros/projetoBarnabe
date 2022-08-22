@@ -1,0 +1,24 @@
+.rodape-container{
+    align-items: center;
+    background: var(--cor-cinza);
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    color: var(--cor-cinza-claro);
+    display: block;
+    font-family: var(--fonte-nav);
+    font-size: .8rem;
+    margin-top: .5rem;
+    padding: 1rem;
+}
+
+.rodape-icons{
+    margin: .5rem 0 0 50rem;
+}
+
+.fa-brands{
+    color: var(--cor-cinza-claro);
+    margin: .5rem 1rem .5rem 0;
+}
